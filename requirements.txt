@@ -1,0 +1,8 @@
+opencv-python~=4.5.1.48
+PyAutoGUI~=0.9.52
+keyboard~=0.13.5
+mediapipe~=0.8.3.1
+pandas~=1.2.4
+scikit-learn~=0.24.1
+matplotlib~=3.4.1
+numpy~=1.20.2
