@@ -1,5 +1,7 @@
 # hand-gesture-control
-Python application for navigating and controlling a Windows computer using various static hand gestures
+Python application for navigating and controlling a Windows computer using various static hand gestures.
+
+Please note that the computer commands run in this program will likely only be functional on Windows. Currently only gestures with the right hand are supported.
 
 ## Set Up
 - Clone this repo
