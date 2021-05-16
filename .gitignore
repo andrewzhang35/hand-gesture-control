@@ -1,0 +1,11 @@
+# virtual env
+venv/
+
+# archived folder
+archived/
+
+# .idea
+.idea
+
+# cache
+__pycache__/
