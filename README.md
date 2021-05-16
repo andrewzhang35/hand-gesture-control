@@ -15,14 +15,14 @@ Please note that the computer commands run in this program will likely only be f
 - Run evaluate_models.py to compare the performance of different models on the training/validation data
 
 ### Resources
-https://google.github.io/mediapipe/solutions/hands
+🔗 https://google.github.io/mediapipe/solutions/hands
 
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+🔗 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
-https://www.youtube.com/watch?v=NZde8Xt78Iw
+🔗 https://www.youtube.com/watch?v=NZde8Xt78Iw
 
-https://www.youtube.com/watch?v=9iEPzbG-xLE
+🔗 https://www.youtube.com/watch?v=9iEPzbG-xLE
 
-https://github.com/andrew-zhan139/Ctrl-Air-Space
+🔗 https://github.com/andrew-zhan139/Ctrl-Air-Space
 
-https://github.com/kinivi/hand-gesture-recognition-mediapipe
+🔗 https://github.com/kinivi/hand-gesture-recognition-mediapipe
