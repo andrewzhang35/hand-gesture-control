@@ -62,7 +62,7 @@ def main():
             write_data(hand_detector.process_landmarks(landmark_list))
 
         cv2.imshow("Frame", frame)
-        key = cv2.waitKey(0)
+        key = cv2.waitKey(1)
 
         # Escape key press to exit
         if key == 27:

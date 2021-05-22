@@ -144,7 +144,7 @@ def main():
                 cv2.putText(frame, hand_shape_detector.state,
                             (25, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
             cv2.imshow("Window", frame)
-            cv2.waitKey(0)
+            cv2.waitKey(1)
 
         # Close program on escape
         if keyboard.is_pressed('esc'):

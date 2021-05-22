@@ -2,6 +2,8 @@ import cv2
 import mediapipe as mp
 from pandas import read_csv
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
 from itertools import chain
 from hand_shapes import *
 from copy import deepcopy
@@ -9,6 +11,7 @@ from datetime import datetime
 
 # Relative path to csv training data
 csv_path = "../model-data/landmarks_classifier.csv"
+
 
 # Class for detecting hands, drawing landmarks, and returning/processing landmark data
 class HandDetector:
@@ -94,7 +97,7 @@ class HandShapeDetector:
         x_train = hand_shape_data[:, 1:43]
         y_train = hand_shape_data[:, 0]
 
-        self.model = LinearDiscriminantAnalysis()
+        self.model = KNeighborsClassifier()
         self.model.fit(x_train, y_train)
         print("Model trained. " + str(datetime.now()))
 
