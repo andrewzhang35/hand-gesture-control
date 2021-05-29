@@ -1,9 +1,9 @@
 import cv2
 import mediapipe as mp
 from pandas import read_csv
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+# from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LogisticRegression
 from itertools import chain
 from hand_shapes import *
 from copy import deepcopy
