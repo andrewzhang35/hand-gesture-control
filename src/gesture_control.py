@@ -12,7 +12,7 @@ import hand_tracking_lib
 from hand_shapes import *
 
 # Set to "true" to see OpenCV window
-show_window = False
+show_window = True
 
 # Setting OpenCV window border to 80 (e.g. x or y of coordinate at 80 on OpenCV window will be equivalent to
 # x or y of 0 on computer screen)
@@ -143,7 +143,7 @@ def main():
             if len(landmark_list) != 0:
                 cv2.putText(frame, hand_shape_detector.state,
                             (25, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
-            cv2.imshow("Window", frame)
+            cv2.imshow("Gesture Control", frame)
             cv2.waitKey(1)
 
         # Close program on escape
