@@ -6,7 +6,7 @@ import keyboard
 import math
 from copy import deepcopy
 
-# if case of error below in PyCharm, right click hand-tracking-lib directory and mark directory as sources root
+# In case of error below in PyCharm, right click hand-tracking-lib directory and mark directory as sources root
 sys.path.append("../hand-tracking-lib")
 import hand_tracking_lib
 from hand_shapes import *
