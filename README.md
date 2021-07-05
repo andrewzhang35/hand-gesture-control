@@ -21,8 +21,12 @@ Please note that the computer commands run in this program will likely only be f
 
 🔗 https://www.youtube.com/watch?v=NZde8Xt78Iw
 
+🔗 https://github.com/kinivi/hand-gesture-recognition-mediapipe
+
+Credit to 
+
 🔗 https://www.youtube.com/watch?v=9iEPzbG-xLE
 
 🔗 https://github.com/andrew-zhan139/Ctrl-Air-Space
 
-🔗 https://github.com/kinivi/hand-gesture-recognition-mediapipe
+for part of the inspiration behind this project.
