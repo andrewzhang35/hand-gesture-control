@@ -17,7 +17,7 @@ csv_path = "landmarks_classifier.csv"
 
 def main():
     # Get training data; split training data into x and y training sets
-    dataset = read_csv(csv_path)
+    dataset = read_csv(csv_path, header=None)
     hand_shape_data = dataset.values
     x = hand_shape_data[:, 1:43]
     y = hand_shape_data[:, 0]

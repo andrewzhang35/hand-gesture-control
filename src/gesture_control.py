@@ -86,7 +86,7 @@ def main():
                 distance_moved = math.hypot(hand_x - previous_hand_x, hand_y - previous_hand_y)
 
                 # Check if distance moved is sufficient to move mouse cursor
-                if distance_moved > 2:
+                if distance_moved > 1:
                     # Map OpenCV window coordinate values to screen coordinate values
                     screen_x = np.interp(hand_x, [window_border, width-window_border], [pyautogui.size()[0], 0])
                     screen_y = np.interp(hand_y, [window_border, height-window_border], [0, pyautogui.size()[1]])
