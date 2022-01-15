@@ -31,7 +31,7 @@ def main():
     previous_hand_x = 0
     previous_hand_y = 0
 
-    hand_detector = hand_tracking_lib.HandDetector(min_detection_confidence=0.75, min_tracking_confidence=0.9)
+    hand_detector = hand_tracking_lib.HandDetector(min_detection_confidence=0.8, min_tracking_confidence=0.8)
     hand_shape_detector = hand_tracking_lib.HandShapeDetector()
 
     while cap.isOpened():
@@ -86,7 +86,7 @@ def main():
                 distance_moved = math.hypot(hand_x - previous_hand_x, hand_y - previous_hand_y)
 
                 # Check if distance moved is sufficient to move mouse cursor
-                if distance_moved > 1:
+                if distance_moved > 2:
                     # Map OpenCV window coordinate values to screen coordinate values
                     screen_x = np.interp(hand_x, [window_border, width-window_border], [pyautogui.size()[0], 0])
                     screen_y = np.interp(hand_y, [window_border, height-window_border], [0, pyautogui.size()[1]])

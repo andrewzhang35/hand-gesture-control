@@ -116,7 +116,7 @@ def main():
 
     cap = cv2.VideoCapture(0)
 
-    hand_detector = HandDetector(min_detection_confidence=0.75, min_tracking_confidence=0.9)
+    hand_detector = HandDetector(min_detection_confidence=0.8, min_tracking_confidence=0.8)
     hand_shape_detector = HandShapeDetector()
 
     while cap.isOpened():
